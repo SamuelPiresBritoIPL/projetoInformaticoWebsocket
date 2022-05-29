@@ -13,3 +13,9 @@ httpServer.listen(8080, function () {
 io.on('connection', function (socket) {
     console.log(`client ${socket.id} has connected`)
 })
+
+io.on('connection', function (socket) {
+    socket.on('newInscricao', function (response) {
+        socket.broadcast.emit('newInscricao', response)
+    })
+})
