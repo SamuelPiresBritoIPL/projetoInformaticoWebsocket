@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DanielSarreira/projetoInformaticoWebsocket.git"
+    "url": "git+https://github.com/SamuelPiresBritoIPL/projetoInformaticoWebsocket.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DanielSarreira/projetoInformaticoWebsocket/issues"
+    "url": "https://github.com/SamuelPiresBritoIPL/projetoInformaticoWebsocket/issues"
   },
-  "homepage": "https://github.com/DanielSarreira/projetoInformaticoWebsocket#readme",
+  "homepage": "https://github.com/SamuelPiresBritoIPL/projetoInformaticoWebsocket#readme",
   "dependencies": {
     "socket.io": "^4.5.1"
   }
