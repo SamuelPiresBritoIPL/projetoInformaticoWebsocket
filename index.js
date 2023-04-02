@@ -1,4 +1,5 @@
 const httpServer = require('http').createServer()
+const port = 8080;
 const io = require("socket.io")(httpServer, {
     allowEIO3: true,
     cors: {
@@ -7,8 +8,8 @@ const io = require("socket.io")(httpServer, {
         credentials: true
     }
 })
-httpServer.listen(8080, function () {
-    console.log('listening on *:8080')
+httpServer.listen(port, function () {
+    console.log('listening on *:' + port)
 })
 io.on('connection', function (socket) {
     console.log(`client ${socket.id} has connected`)
